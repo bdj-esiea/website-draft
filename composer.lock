@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cf6544718ecaafae05d72776e07490ea",
+    "packages": [
+        {
+            "name": "jacklul/q3serverlist",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jacklul/q3serverlist.git",
+                "reference": "5fa54d2a17b4bce78be327eda20d602acafcf9c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jacklul/q3serverlist/zipball/5fa54d2a17b4bce78be327eda20d602acafcf9c9",
+                "reference": "5fa54d2a17b4bce78be327eda20d602acafcf9c9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-sockets": "*",
+                "php": "^5.5|^7.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jacklul\\q3serverlist\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jack'lul",
+                    "email": "jacklulcat@gmail.com",
+                    "homepage": "https://jacklul.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple library for querying Quake 3 based master servers and it's game servers",
+            "keywords": [
+                "game",
+                "master",
+                "q3",
+                "quake",
+                "server"
+            ],
+            "support": {
+                "issues": "https://github.com/jacklul/q3serverlist/issues",
+                "source": "https://github.com/jacklul/q3serverlist"
+            },
+            "time": "2020-07-20T18:38:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

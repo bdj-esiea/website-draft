@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'RomanSD2';
+    src: url('assets/fonts/RomanSD2-Regular.woff') format('woff');
+}
+
+body {
+    background-color: #c20116;
+    text-shadow: black 1px 0 10px;
+    /*-webkit-text-stroke: 0.5px black;*/
+    min-width: 73rem;
+    width: auto !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+header {
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    /*background-color: purple;*/
+    min-width: 130rem;
+}
+
+article {
+    position: absolute;
+    top: 10rem;
+    bottom: 0rem;
+    /*background-color: green;*/
+    width: 100%;
+}
+
+aside {
+    position: absolute;
+    left:0;
+    right:85%;
+    top:0;
+    bottom:0;
+    /*background-color: aqua;*/
+    min-width: 30rem;
+}
+
+h1, h2, h3, b {
+    font-family: "RomanSD2", Roman SD2;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1,h2,h3,p {
+    color: gold;
+}
+
+hr {
+    border-color: gold;
+}
+
+a, li {
+    color: yellow
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.Hlist {
+    float: left;
+    margin: auto;
+    padding: inherit;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+li {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Server-List {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    overflow: auto;
+    margin-bottom: -1rem;
+    /*background-color: pink;*/
+}
+
+#Server-Section {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /*background-color: blue;*/
+    height: 22rem;
+    min-width: 130rem;
+}
+
+#Logo {
+    position: relative;
+    display: block;
+    margin: auto;
+    max-height: 100%;
+}
+
+#Container {
+    /*background-color: red;*/
+    position:absolute;
+    width:99%;
+    top: 22rem;
+    bottom: 2rem;
+    min-width: 130rem;
+}
+
+#DiscordWiget {
+    position: absolute;
+    top: 1.5rem;
+    bottom : 3.5rem;
+    left : 2rem;
+    right : 2rem;
+    z-index: 500;
+}
+
+footer {
+    background-color: #c20116;
+    position:fixed;
+    width: 100%;
+    bottom:0.1rem;
+}
+
+#SocialBar {
+    margin-left:auto;
+    margin-right: auto;
+    width:max-content;
+}
+
+.SocialItem{
+    padding: 3rem;
+    padding-bottom: 0rem;
+    text-decoration: unset;
+    font-size: 1.2rem;
+}
+
+#DebugString {
+    position:fixed;
+    bottom:0.5rem;
+    left:0.5rem;
+    height: 0rem;
+}

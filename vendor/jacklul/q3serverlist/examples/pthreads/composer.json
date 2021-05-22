@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "psr-4": {
+            "jacklul\\q3serverlist\\": "../../src"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+/vendor
+/composer.lock
+/test*
+/examples/*/servers.json
+/examples/*/composer.lock
+/examples/*/vendor
